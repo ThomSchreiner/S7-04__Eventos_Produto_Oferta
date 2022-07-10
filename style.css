@@ -1,0 +1,54 @@
+html, body, main, ul, li, h1, span, p, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background-color: black;
+}
+
+body main ul {
+    background-color: white;
+    width: 400px;
+    margin: 60px auto;
+    height: 450px;
+}
+
+body main ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+body main ul li .nome {
+    font-size: 60px;
+}
+
+body main ul li .preco {
+    font-size: 60px;
+    color: #ff0f0f;
+}
+
+body main ul li button {
+    font-size: 25px;
+    background-color: #a0edb5;
+    width: 85%;
+    border-radius: 8px;
+    padding: 13px 0;
+}
+
+body main ul li .promocao {
+    font-size: 25px;
+    color: #039b00;
+}
+
+
+body main ul li .fabricante {
+    font-size: 25px;
+    color: #bfbfbf;
+}
